@@ -43,11 +43,23 @@ body {
 }
 
 .hold {
-  border: solid 5px #ccc;
+  border: solid 5px #faa4c1;
 }
 
 .hovered {
-  background-color: #333;
-  border-color: white;
+  background-color: #b62857c5;
+  border-color: #fff;
   border-style: dashed;
+}
+
+@media screen and (max-width: 363px) {
+    .box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fill {
+        width: 99px;
+        height: 99px;
+    }
 }
